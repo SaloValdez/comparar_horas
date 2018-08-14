@@ -20,6 +20,9 @@
           echo "AUN................<BR>";
       }else{
         echo "hora TABLA  es MENOR que HORA REGISTRO ...<BR>";
-        echo "QUE TENGA BUENOS DIAS...<BR>";
+        echo "QUE TENGA BUENOS DIAS...<BR><BR>";
       }
+
+      $fecha_actual = date("d/m/y");
+      echo "la fecha es ::::::::   " . $fecha_actual
  ?>
